@@ -16,7 +16,7 @@ let accounts =[
 
 
 //retrieve the data by id 
-    app.get ( '/list' , function ( req , res ) {
+    app.get ( '/account' , function ( req , res ) {
         let id=req.query.id;
         for( let account of accounts ){
             if (account.id == id){
@@ -31,7 +31,7 @@ let accounts =[
 
 
 
-/// retrieve the data from linkedlis 
+/// retrieve the data from linkedlist
     
 
 
